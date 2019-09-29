@@ -1,0 +1,48 @@
+@import "./variables";
+
+.btn {
+  background-color: $green;
+  border: none;
+  color: $white;
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 13px 25px;
+  display: inline-block;
+  margin: 0;
+  border-radius: 5px;
+  font-weight: 400;
+  outline: none;
+  position: relative;
+  transition: all 0.3s;
+  text-decoration: none;
+
+  &--big {
+    font-size: 17px;
+    padding: 14px 30px;
+    border-radius: 30px;
+  }
+
+  &--border {
+    border: 1px solid $dark;
+    font-size: 14px;
+    padding: 11px 25px;
+    background-color: transparent;
+    color: $dark;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  img {
+    height: 17px;
+    float: left;
+    margin: 1px 10px 0 0;
+  }
+
+  &:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+}
